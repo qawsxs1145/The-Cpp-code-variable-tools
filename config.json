@@ -1,0 +1,45 @@
+{
+    "output_dir": "./output",
+    "filename_rule": "{name}_{date}{ext}",
+    "folder_name_rule": "{src}pullin{date}",
+    "source_extensions": [
+        ".cpp",
+        ".cc",
+        ".cxx"
+    ],
+    "recursive": true,
+    "naming_rule": {
+        "mode": "random",
+        "prefix": "",
+        "length": 3,
+        "charset": "lowercase",
+        "start_index": 1,
+        "word_pool": [
+            "alpha",
+            "beta",
+            "gamma",
+            "delta",
+            "epsilon",
+            "zeta",
+            "eta",
+            "theta",
+            "iota",
+            "kappa",
+            "lambda",
+            "mu",
+            "nu",
+            "xi",
+            "omicron",
+            "pi",
+            "rho",
+            "sigma",
+            "tau",
+            "upsilon"
+        ],
+        "word_pool_suffix": true
+    },
+    "keep_uppercase_macros": true,
+    "protect_includes": true,
+    "exclude": [],
+    "include_only": []
+}
